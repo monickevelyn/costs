@@ -1,0 +1,53 @@
+.service-card {
+    padding: 1em;
+    width: 300px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    color: white;
+    background-color: #252323;
+    border-radius: 8px;
+}
+
+.service-card h4 {
+    color: #dba537;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.5em;
+    border-bottom: 1px solid #dba537;
+}
+
+.service-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.p-descri {
+    width: 100%;
+    word-break: break-all;
+}
+
+
+button {
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 0.6em;
+    text-decoration: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button:hover {
+    transition: 0.2s all;
+    color: #dba537;
+    border-color: #dba537;
+    cursor: pointer;
+}

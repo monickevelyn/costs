@@ -1,0 +1,35 @@
+.footer {
+    height: 120px;
+    background-color: #f0ecec;
+    color: #151515;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-lista li {
+    font-size: 24px;
+}
+
+.social-lista li:hover {
+    color: #a5781d;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.costs-copy {
+    font-size: 14px;
+    font-weight: 400;
+}

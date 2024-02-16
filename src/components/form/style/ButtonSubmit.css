@@ -1,0 +1,19 @@
+.btn-submit {
+    border: none;
+    background: none;
+    outline: 0;
+    font-size: 1em;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 0.6em;
+    text-decoration: none;
+
+}
+
+.btn-submit:hover {
+    transition: 0.2s all;
+    color: #dba537;
+    border-color: #dba537;
+    cursor: pointer;
+}

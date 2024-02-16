@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": "b030",
+      "nome_projeto": "projeto",
+      "valor_ocarmento": "2000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": null,
+      "services": []
+    },
+    {
+      "id": "2778",
+      "nome_projeto": "projeto2",
+      "valor_ocarmento": "200",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.projeto-container {
+    padding: 2em;
+}
+
+.titulo-projeto-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.div-projeto-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.link-btn {
+    height: 40px;
+    width: 140px;
+    text-align: center;
+}

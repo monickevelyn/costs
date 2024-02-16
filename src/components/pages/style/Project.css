@@ -1,0 +1,98 @@
+.projeto-detalhes {
+    padding: 2em;
+}
+
+.div-projeto-detalhes,
+.service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid white;
+    padding: 1em;
+}
+
+.detalhes-titulo{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.project-infos {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.service-container {
+    border: none;
+}
+
+.service-container h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #dba537;
+}
+
+.div-projeto-detalhes div p {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0.6em;
+}
+
+.div-projeto-detalhes div span {
+    font-weight: bold;
+}
+
+.div-projeto-detalhes h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #dba537;
+}
+
+.btn {
+    border: none;
+    background: none;
+    outline: 0;
+    font-size: 1em;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 0.6em;
+
+}
+
+.btn:hover {
+    transition: 0.2s all;
+    color: #dba537;
+    cursor: pointer;
+}
+
+.project-info {
+    width: 100%;
+    margin-top: 0.8em;
+}
+
+.section-service {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    padding: 1em;
+}
+
+.service-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2em;
+}

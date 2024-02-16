@@ -1,0 +1,22 @@
+.div-loader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    width: 80px;
+    height: 80px;
+    border: 10px solid rgb(122, 119, 119);
+    border-top-color: #ffbb33;
+    border-radius: 50%;
+    animation: loadin 1s linear infinite;
+}
+
+@keyframes loadin {
+    to {
+        transform: rotate(360deg);
+    }
+}

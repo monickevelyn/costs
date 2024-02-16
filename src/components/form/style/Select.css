@@ -1,0 +1,28 @@
+.div-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.div-input label {
+    margin-bottom: .6em;
+    font-weight: bold;
+    color: #eeebeb;
+}
+
+.div-input select {
+    background: none;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    padding: 0.2em;
+    background-color: #eeebeb;
+    color: #151515;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.div-input select option{
+    color: #151515;
+}
