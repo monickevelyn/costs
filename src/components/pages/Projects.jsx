@@ -10,7 +10,7 @@ export default function Projects() {
 
   useEffect(() => {
      setTimeout(() => {
-      fetch("https://costs-eight-silk.vercel.app/projects", {
+      fetch("http://localhost:5000/projects", {
         method: "GET",
         headers: {
           'Content-Type' : 'application/json'
@@ -26,7 +26,7 @@ export default function Projects() {
   }, [])
 
     function removeProjects(id){
-      fetch(`https://costs-eight-silk.vercel.app/projects/${id}`, {
+      fetch(`http://localhost:5000/projects/${id}`, {
         method: "DELETE",
         headers: {
           'Content-Type' : 'application/json'

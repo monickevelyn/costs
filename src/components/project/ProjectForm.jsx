@@ -9,7 +9,7 @@ export default function ProjectForm({ handleSubmit, BtnText, projectData }){
   const [project, setProject] = useState(projectData || {})
 
   useEffect(() => {
-    fetch("https://costs-eight-silk.vercel.app/categories", {
+    fetch("http://localhost:5000/categories", {
       method: "GET",
       headers: {
         'Content-Type' : 'application/json'

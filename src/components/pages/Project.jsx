@@ -15,7 +15,7 @@ export default function Project(){
     const [showServiceForm, setshowServiceForm] = useState(false)
 
     useEffect(() => {
-        fetch(`https://costs-eight-silk.vercel.app/projects/${id}`, {
+        fetch(`http://localhost:5000/projects/${id}`, {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json'
@@ -32,7 +32,7 @@ export default function Project(){
     // project
 
     function editProject(project){
-        fetch(`https://costs-eight-silk.vercel.app/projects/${project.id}`, {
+        fetch(`http://localhost:5000/projects/${project.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type': 'application/json'
@@ -61,7 +61,7 @@ export default function Project(){
         const lastService = project.services[project.services.length - 1]
         lastService.id = uuidv4();
        
-        fetch(`https://costs-eight-silk.vercel.app/projects/${project.id}`, {
+        fetch(`http://localhost:5000/projects/${project.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type': 'application/json'
@@ -83,7 +83,7 @@ export default function Project(){
         const updateProjects = project;
         updateProjects.services = updateServices;
 
-        fetch(`https://costs-eight-silk.vercel.app/projects/${updateProjects.id}`, {
+        fetch(`http://localhost:5000/projects/${updateProjects.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type' : 'application/json'

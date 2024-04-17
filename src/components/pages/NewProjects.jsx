@@ -9,7 +9,7 @@ export default function NewProjects() {
         project.cost = 0
         project.services = []
 
-        fetch("https://costs-eight-silk.vercel.app/projects", {
+        fetch("http://localhost:5000/projects", {
               method: "POST",
               headers: {
                 'Content-Type' : 'application/json'
